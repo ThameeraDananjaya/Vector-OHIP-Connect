@@ -25,7 +25,7 @@ A comprehensive interface for testing and managing Oracle Hospitality Integratio
 ### Prerequisites
 
 - Node.js 18+
-- Yarn package manager
+- npm or Yarn package manager
 - PostgreSQL database (optional - only needed for token caching & request logging)
 
 ### Installation
@@ -38,11 +38,15 @@ cd Vector-OHIP-Connect
 
 2. Install dependencies:
 ```bash
+npm install
+# or
 yarn install
 ```
 
 3. Run the development server:
 ```bash
+npm run dev
+# or
 yarn dev
 ```
 
@@ -61,8 +65,8 @@ cp .env.example .env
 
 2. Set up the database:
 ```bash
-yarn prisma generate
-yarn prisma db push
+npx prisma generate
+npx prisma db push
 ```
 
 **Without a database**: The app will still work for making API calls, but:
