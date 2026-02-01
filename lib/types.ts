@@ -44,6 +44,13 @@ export interface Endpoint {
   hasBody: boolean;
   bodyMode: string | null;
   bodyRaw: string | null;
+  body?: any;
+  request?: {
+    // Add this (for nested structures)
+    body?: {
+      raw?: string;
+    };
+  };
   folder: string;
   description: string;
 }
