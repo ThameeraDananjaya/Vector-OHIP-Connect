@@ -1,0 +1,1976 @@
+{
+  "opera_cloud": {
+    "id": "opera_cloud",
+    "name": "OPERA Cloud",
+    "description": "OPERA Cloud Property APIs environment",
+    "originalName": "ORACLE Hospitality OPERA Cloud Rest APIs ",
+    "variables": [
+      {
+        "key": "AccountId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AccountPriorityId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AccountProfileId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AccountTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityGroup",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityLocationsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityResultCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityStatusCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ActivityTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AddressTypeId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Adults",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AirportCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AppKey",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Arrival",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ArrivalDate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AttachmentId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AttendantId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AttractionClassCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AttractionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AutoTraceCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AutoTraceDefinitionId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AutoTraceOwnerAssignmentId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BedTypeRequestsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BedTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BeginDate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockCancellationReasonsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockConversionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockLostBookingCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockRankingsCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockRateOverrideReasonsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BlockRefusedReasonsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BookingChannelCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BookingStatus",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BookingTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BrandCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BusinessDate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BusinessSegmentCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "BusinessUnitCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CancellationCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CancelPolicyCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CancelPolicyTemplate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CardTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CashierId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CategoryCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CateringMenuId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CateringMenuItemClassesCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CateringPackageId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CateringRentalId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CatStatus",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ChainCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ChangeSource",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Channel",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ChannelCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ChannelType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CheckNumber",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Children",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CityCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CLIENT_ID",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CLIENT_SECRET",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Code",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CommunicationMethodsEntDetailsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CommunicationTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CompanyId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CompanyTypesCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CompetitionCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ContactId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CorporateId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CountryCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CurrencyCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus1",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DepartmentCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DepartmentId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DepartmentType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Departure",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DepositPolicyCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DepositPolicyTemplate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DestinationCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DiscountReasonsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DisplaySet",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DisplaySetsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DistanceTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DistrictsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DivisionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DocketId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "EndDate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "EnrollmentCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "EnterpriseId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "EntryPointsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ErrorType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "EventId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "EventTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ExchangeType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ExternalSystemCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FacilityTask",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FeatureCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FiscalAgentTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FiscalGuestTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FloorsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FloorTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FromRoomClass",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FromRoomTypeLabel",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FunctionSpaceCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FunctionSpaceLocationCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FunctionSpaceSetupStyleId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FunctionSpaceTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "GroupCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "GuaranteeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "GuestMessageId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "GuestStatusCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "GuestTitlesCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "GuestTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HashedAppKey",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HostName",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCodeList",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelId",
+        "value": "SAND01",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelId2",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "IdentificationTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ImmigrationStatusCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "IncludeGlobals",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "IncludeInactive",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "IndustryCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "InfluenceCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "InterfaceId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "InventoryItemId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ItemClassesCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ItemId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "JobTitleCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "KeywordTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "LanguageCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "LocationCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "LocatorCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "LocatorId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MailingActionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MaintenanceId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MaintenanceCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MaintenanceId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MarketCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MarketGroupCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MarketingRegionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MealTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipAwardsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipClassId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipEnrollmentGroupsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipLevel",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipLevelsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipMarketGroupId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipPropertyGroupsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipRateGroupId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipStatusCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipTypeId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MembershipTypeRulesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MenuId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MenuClassId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MessageCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Module",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MyGUID",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "NationalitiesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "NegotiatedOnly",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "NoteTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "OperatingUnitCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "OriginCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "OwnerTeamCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PackageCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PackageForecastGroupCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PackageFormulaRangeId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Password",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PayDaysId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PolicyScheduleId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PreferenceCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PreferenceGroup",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PreferenceType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ProfileExternalId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ProfileId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ProfileInactiveReasonsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ProfileRestrictionReasonsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PromoCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PromotionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PropertyTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ProviderId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PurposeOfStaysId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RateCategoryCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RateClassCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RateCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RateCodeType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RatePlanCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RateStrategyId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ReasonCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RegionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RequestId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ReservationId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ReservationMethodId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RestaurantCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RestrictionId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RevenueTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Room",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomAmenitiesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomClassId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomClassTemplateId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomConditionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomNumber",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomPoolCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomPotentialsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomScheduleId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomType",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomTypeId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomTypeLabel",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomTypeTemplatesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RuleCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ScheduleId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SeasonCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SelectedOfferId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SellInEvent",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SellInReservation",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ServiceRequestCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ServiceRequestId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SheetNumber",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SmokingTypesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourceBlockId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourceCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourceGroupCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourceHotelId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourceProfileId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourcesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "srcBlockStatusCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "StatisticsCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SurvivorProfileId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TargetProfileId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TaskSheetNumber",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TaskSheetTemplateCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TaxCategoryCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TaxTypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TemplateCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TemplateFloorsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TerritoriesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Token",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TransactionCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TransportationCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TurnawayCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TypeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "UdfGroupCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "UdfValue",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Username",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "VipLevelsId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "WaitlistCodesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "WaitlistPrioritiesId",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "WashScheduleCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      }
+    ]
+  },
+  "distribution": {
+    "id": "distribution",
+    "name": "Distribution",
+    "description": "Distribution APIs environment",
+    "originalName": "ORACLE Hospitality Distribution APIs",
+    "variables": [
+      {
+        "key": "chainCode",
+        "value": "OH",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode1",
+        "value": "XSBOXD1",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode2",
+        "value": "XSBOXD2",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode3",
+        "value": "DUMMY3",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode4",
+        "value": "DUMMY4",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode5",
+        "value": "DUMMY5",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode6",
+        "value": "DUMMY6",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ResNotifChannelCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HotelCode",
+        "value": "XSBOXD1",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "ConfirmationNum",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "externalReservationConfirmation",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currencyCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomTypeCodes",
+        "value": "A1K,B1K",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RoomTypeCode",
+        "value": "C1K",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RatePlanCodes",
+        "value": "FLEX,PROMO",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "RatePlanCode",
+        "value": "FLEX",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "dayUseRateCode",
+        "value": "DAYUSE",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "DepositRequiredRatecode",
+        "value": "EARLY",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "blockCode",
+        "value": "BLKRESNOTIF",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "blockCodeWithRateCode",
+        "value": "BLK67890",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "blockWithoutRateCode",
+        "value": "BLK12345",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PromotionCodes",
+        "value": "PROMO123",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "accessCode",
+        "value": "ORA",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "NegotiatedRatePlanCodes",
+        "value": "OR1",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "NegotiatedRatePlanCode",
+        "value": "OR1",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "CorporateId",
+        "value": "ORACLE",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TravelAgentId",
+        "value": "TRAVEL123",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "SourceProfileId",
+        "value": "SOURCE123",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PropertyCCGuaranteeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PropertyCashGuaranteeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PropertyDepositGuaranteeCode",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "membershipType",
+        "value": "MF",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "membershipLevel",
+        "value": "ENTRY",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "membershipId",
+        "value": "O137446L",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "memberLastName",
+        "value": "Smith-Loyalty",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "HostName",
+        "value": "https://ohd-uat-up.hospitality-api.us-ashburn-1.ocs.oc-test.com",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "version",
+        "value": "v1",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "AppKey",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Username",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Password",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "channelCode",
+        "value": "SANDBOX",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Token",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdate",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus1",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus2",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus3",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus4",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus10",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus11",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus12",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus13",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus14",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus15",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus30",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdateplus60",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "partnerInventoryURL",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "partnerRestrictionsURL",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "partnerRatesURL",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "OracleUserProvidedByPartner",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "OraclePasswordProvidedByPartner",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "currentdate-time",
+        "value": "",
+        "type": "any",
+        "enabled": true
+      }
+    ]
+  },
+  "ra_storage": {
+    "id": "ra_storage",
+    "name": "R&A Object Storage",
+    "description": "Reporting & Analytics Object Storage environment",
+    "originalName": "R&A_PARVariables",
+    "variables": [
+      {
+        "key": "IDCSHostName",
+        "value": "https://idcs-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.identity.oraclecloud.com",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "APPId",
+        "value": "OC_RNA_CLIENT_xxxxxxxxxxxxxxxxxxxxx_APPID",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "APPSecret",
+        "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "TenantID",
+        "value": "xxxxxxxxxxxxxxxxxxxx",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Token",
+        "value": "",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "PortalEndPoint",
+        "value": "https://portal.ohra.oraclehospitality.ocs.oraclecloud.com/",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "Prefix",
+        "value": "OS",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "FileName",
+        "value": "filename.csv",
+        "type": "default",
+        "enabled": true
+      },
+      {
+        "key": "MinutesToExpire",
+        "value": "15",
+        "type": "default",
+        "enabled": true
+      }
+    ]
+  }
+}

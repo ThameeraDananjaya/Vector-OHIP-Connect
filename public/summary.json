@@ -1,0 +1,48 @@
+{
+  "environments": {
+    "opera_cloud": {
+      "name": "OPERA Cloud",
+      "variableCount": 255
+    },
+    "distribution": {
+      "name": "Distribution",
+      "variableCount": 61
+    },
+    "ra_storage": {
+      "name": "R&A Object Storage",
+      "variableCount": 9
+    }
+  },
+  "collections": {
+    "distribution": {
+      "name": "Distribution",
+      "endpointCount": 153,
+      "folderCount": 19
+    },
+    "property": {
+      "name": "OPERA Property",
+      "endpointCount": 2410,
+      "folderCount": 421
+    },
+    "workflows": {
+      "name": "OPERA Workflows",
+      "endpointCount": 276,
+      "folderCount": 39
+    },
+    "nor1": {
+      "name": "Nor1 Upgrade",
+      "endpointCount": 4,
+      "folderCount": 2
+    },
+    "ra_data": {
+      "name": "R&A Data APIs",
+      "endpointCount": 68,
+      "folderCount": 12
+    },
+    "ra_storage": {
+      "name": "R&A Object Storage APIs",
+      "endpointCount": 5,
+      "folderCount": 0
+    }
+  }
+}

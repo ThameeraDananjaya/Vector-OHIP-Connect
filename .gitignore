@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.yarn/
+
+# Build outputs
+.next/
+.build/
+out/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
+
+# Yarn
+yarn.lock
+.yarnrc.yml

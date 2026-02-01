@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --oracle-red: #C74634;
+  --oracle-dark: #312D2A;
+  --redwood-primary: #C74634;
+  --redwood-secondary: #6B3620;
+  --redwood-bg: #FAF9F8;
+  --redwood-border: #E2DDD8;
+}
+
+@layer base {
+  :root {
+    --background: 40 20% 98%;
+    --foreground: 20 14% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 17%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 17%;
+    --primary: 8 62% 49%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 20 55% 27%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 30 10% 93%;
+    --muted-foreground: 20 10% 45%;
+    --accent: 30 20% 90%;
+    --accent-foreground: 20 14% 17%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 8 62% 49%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14% 10%;
+    --foreground: 40 20% 98%;
+    --card: 20 14% 14%;
+    --card-foreground: 40 20% 98%;
+    --popover: 20 14% 14%;
+    --popover-foreground: 40 20% 98%;
+    --primary: 8 62% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 20 35% 35%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 20 14% 20%;
+    --muted-foreground: 30 10% 65%;
+    --accent: 20 14% 25%;
+    --accent-foreground: 40 20% 98%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 20 14% 25%;
+    --input: 20 14% 25%;
+    --ring: 8 62% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+[data-hydration-error] {
+  display: none !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* JSON syntax highlighting */
+.json-key {
+  color: #C74634;
+}
+
+.json-string {
+  color: #22863a;
+}
+
+.json-number {
+  color: #005cc5;
+}
+
+.json-boolean {
+  color: #d73a49;
+}
+
+.json-null {
+  color: #6a737d;
+}
+
+/* Method badges */
+.method-get { @apply bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400; }
+.method-post { @apply bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400; }
+.method-put { @apply bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400; }
+.method-patch { @apply bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400; }
+.method-delete { @apply bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400; }

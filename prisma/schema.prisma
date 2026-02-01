@@ -1,0 +1,36 @@
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/ohip_integration_ui/nextjs_space/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model TokenCache {
+  id           String   @id @default(cuid())
+  environment  String   @unique
+  accessToken  String   @db.Text
+  tokenType    String   @default("Bearer")
+  expiresIn    Int
+  expiresAt    DateTime
+  scope        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model ApiLog {
+  id           String   @id @default(cuid())
+  collection   String
+  endpoint     String
+  method       String
+  url          String   @db.Text
+  requestBody  String?  @db.Text
+  responseBody String?  @db.Text
+  statusCode   Int?
+  duration     Int?
+  error        String?  @db.Text
+  createdAt    DateTime @default(now())
+}
