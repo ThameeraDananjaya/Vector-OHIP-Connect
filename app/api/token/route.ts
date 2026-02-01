@@ -57,13 +57,26 @@ async function fetchOperaCloudToken(credentials: Record<string, string>): Promis
     body,
   });
 
+  const responseText = await response.text();
+  console.log('OPERA Cloud Token - Response Status:', response.status);
+  console.log('OPERA Cloud Token - Response (first 500 chars):', responseText.substring(0, 500));
+
   if (!response.ok) {
-    const errorText = await response.text();
-    console.error('OPERA Cloud Token Error:', response.status, errorText);
-    throw new Error(`Token request failed: ${response.status} - ${errorText}`);
+    console.error('OPERA Cloud Token Error:', response.status, responseText);
+    // Check if response is HTML (error page)
+    if (responseText.trim().startsWith('<')) {
+      throw new Error(`Token request failed: ${response.status} - Server returned HTML error page. Please verify your HostName URL is correct and accessible.`);
+    }
+    throw new Error(`Token request failed: ${response.status} - ${responseText}`);
   }
 
-  return response.json();
+  // Parse JSON safely
+  try {
+    return JSON.parse(responseText);
+  } catch (e) {
+    console.error('Failed to parse token response as JSON:', responseText);
+    throw new Error(`Invalid JSON response from server. Response: ${responseText.substring(0, 200)}`);
+  }
 }
 
 async function fetchDistributionToken(credentials: Record<string, string>): Promise<any> {
@@ -94,13 +107,23 @@ async function fetchDistributionToken(credentials: Record<string, string>): Prom
     body,
   });
 
+  const responseText = await response.text();
+  console.log('Distribution Token - Response Status:', response.status);
+  console.log('Distribution Token - Response (first 500 chars):', responseText.substring(0, 500));
+
   if (!response.ok) {
-    const errorText = await response.text();
-    console.error('Distribution Token Error:', response.status, errorText);
-    throw new Error(`Token request failed: ${response.status} - ${errorText}`);
+    console.error('Distribution Token Error:', response.status, responseText);
+    if (responseText.trim().startsWith('<')) {
+      throw new Error(`Token request failed: ${response.status} - Server returned HTML error page. Please verify your HostName URL is correct.`);
+    }
+    throw new Error(`Token request failed: ${response.status} - ${responseText}`);
   }
 
-  return response.json();
+  try {
+    return JSON.parse(responseText);
+  } catch (e) {
+    throw new Error(`Invalid JSON response from server. Response: ${responseText.substring(0, 200)}`);
+  }
 }
 
 async function fetchRAStorageToken(credentials: Record<string, string>): Promise<any> {
@@ -125,13 +148,23 @@ async function fetchRAStorageToken(credentials: Record<string, string>): Promise
     body,
   });
 
+  const responseText = await response.text();
+  console.log('R&A Storage Token - Response Status:', response.status);
+  console.log('R&A Storage Token - Response (first 500 chars):', responseText.substring(0, 500));
+
   if (!response.ok) {
-    const errorText = await response.text();
-    console.error('R&A Storage Token Error:', response.status, errorText);
-    throw new Error(`Token request failed: ${response.status} - ${errorText}`);
+    console.error('R&A Storage Token Error:', response.status, responseText);
+    if (responseText.trim().startsWith('<')) {
+      throw new Error(`Token request failed: ${response.status} - Server returned HTML error page. Please verify your IDCSHostName URL is correct.`);
+    }
+    throw new Error(`Token request failed: ${response.status} - ${responseText}`);
   }
 
-  return response.json();
+  try {
+    return JSON.parse(responseText);
+  } catch (e) {
+    throw new Error(`Invalid JSON response from server. Response: ${responseText.substring(0, 200)}`);
+  }
 }
 
 export async function POST(request: NextRequest) {
