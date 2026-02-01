@@ -25,8 +25,8 @@ A comprehensive interface for testing and managing Oracle Hospitality Integratio
 ### Prerequisites
 
 - Node.js 18+
-- PostgreSQL database
 - Yarn package manager
+- PostgreSQL database (optional - only needed for token caching & request logging)
 
 ### Installation
 
@@ -41,24 +41,33 @@ cd Vector-OHIP-Connect
 yarn install
 ```
 
-3. Set up environment variables:
+3. Run the development server:
 ```bash
-cp .env.example .env
-# Edit .env with your database URL and other configurations
+yarn dev
 ```
 
-4. Set up the database:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Database Setup (Optional)
+
+The database is used for **token caching** and **API request logging**. If you want these features:
+
+1. Set up environment variables:
+```bash
+cp .env.example .env
+# Add your PostgreSQL connection string:
+# DATABASE_URL="postgresql://user:password@localhost:5432/vector_ohip"
+```
+
+2. Set up the database:
 ```bash
 yarn prisma generate
 yarn prisma db push
 ```
 
-5. Run the development server:
-```bash
-yarn dev
-```
-
-6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+**Without a database**: The app will still work for making API calls, but:
+- Tokens won't be cached (new token generated each time)
+- Request history won't be saved
 
 ## Environment Configuration
 
